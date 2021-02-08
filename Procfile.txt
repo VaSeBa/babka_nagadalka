@@ -1,0 +1,1 @@
+bot: java -jar gradle\wrapper\wrapper\gradle-wrapper.jar
