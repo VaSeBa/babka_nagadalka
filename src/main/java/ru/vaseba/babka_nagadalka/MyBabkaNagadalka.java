@@ -11,8 +11,8 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.methods.send.SendPhoto;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import ru.vaseba.babka_nagadalka.botapi.TelegramFacade;
-
 import java.io.File;
+
 
 public class MyBabkaNagadalka extends TelegramWebhookBot {
     private String webHookPath;
@@ -22,8 +22,8 @@ public class MyBabkaNagadalka extends TelegramWebhookBot {
     private TelegramFacade telegramFacade;
 
 
-    public MyBabkaNagadalka(DefaultBotOptions botOptions, TelegramFacade telegramFacade) {
-        super(botOptions);
+    public MyBabkaNagadalka(TelegramFacade telegramFacade) {
+//        super(botOptions);
         this.telegramFacade = telegramFacade;
     }
 
